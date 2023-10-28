@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+}
+
+.navbar-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  justify-content: space-evenly;
+  width:40%;
+}
+.navbar-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  justify-content: space-evenly;
+  width:30%;
+}
+.navbar-space{
+  display: flex;
+  width: 20%;
+}
+.header-article{
+  width: 100%;
+  height:30%;
+  background-color: black;
+  border:none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.accordion-button:not(.collapsed){
+background-color: #12AA84 !important;
+color: white !important;
+cursor: pointer;
+}
+.accordion-button{
+  background-color:  #12AA84 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.accordion-body{
+  background-color:  #EAF0F6;
+  ;
+}
+.card-details{
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:center;
+}
+h4{
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 45px;
+     padding: 40px
+}
+
+h5{
+  margin:10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+margin-top:20px;
+}
+.accordion-item{
+  margin-top:10px;
+}
+.body-section{
+  background-color: whitesmoke;
+}
